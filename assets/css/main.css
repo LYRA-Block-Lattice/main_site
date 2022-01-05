@@ -1152,18 +1152,18 @@ About Us
 }
 
 .about-us:after {
-  background-image: url(../images/block1.gif);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../images/block1.png);
+  background-position: center right;
   width: 777px;
   height: 1132px;
   content: '';
   position: absolute;
   background-repeat: no-repeat;
   right: 0;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
   z-index: 0;
+  background-size: 83%;
 }
 
 
@@ -2079,8 +2079,9 @@ responsive
     background: linear-gradient(to right, #594AE2, #4B8EF1);
   }
   .main-banner:after {
-    background-image: url(../images/block1.gif);
-    opacity: 30%;
+    background-image: url(../images/blockchain12.png);
+    opacity: 60%;
+    background-position-y: 90px;
   } 
   #main-title {
     background: linear-gradient(to right, #594AE2, #4B8EF1);
